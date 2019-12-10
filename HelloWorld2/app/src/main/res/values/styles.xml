@@ -1,0 +1,13 @@
+<resources>
+    <!--Additional file and static content under the resource file. Resources files contains the content that the code uses, such as bitmaps, layout definitions, user interface strings, animation instructions and more -->
+    <!--Styles can be applied to an individual "View" from within a layout file or to an entire "Activity" or application from within the manifest file-->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

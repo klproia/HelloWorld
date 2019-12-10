@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Additional file and static content under the resource file. Resources files contains the content that the code uses, such as bitmaps, layout definitions, user interface strings, animation instructions and more -->
+<!--The colors xml file carries a color value as a hexadecimal. It is a resource that can be used any place that accepts the hexadecimal color value-->
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+</resources>

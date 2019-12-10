@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <!--Additional file and static content under the resource file. Resources files contains the content that the code uses, such as bitmaps, layout definitions, user interface strings, animation instructions and more -->
+    <!--A single string can be referenced from the application or from other resource files. The strings provides text strings for the application with optional text styling and formatting. There are three types of resources that can provide your application with strings-->
+    <!--String, String Array and Quantity Strings-->
+
+    <!--Created this extra and called in the activity_main.xml file -->
+    <string name="hello_world_welcome_to_my_first_app">Welcome to my first app...</string>
+
+</resources>

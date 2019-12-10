@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloworld">
+    <!--provides essential information about your app to the Android system, which the system must  have before it can run any of the apps code. The manifest does alot of other things such as:-->
+    <!--naming the Java package for the application-->
+    <!-- describes the components of the application-->
+    <!--determines the processes that host the application components-->
+    <!-- declares the permissions that the application must have in order to access orotected parts of
+                the API and interact with other applications-->
+    <!-- lists the instrumentation classes that provide profiling and other information as the
+          application runs-->
+    <!-- declares the minimum level of the Android API that the application requires-->
+    <!--lists the libraries that the application must be linked against-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+

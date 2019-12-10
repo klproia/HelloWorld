@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Additional file and static content under the resource file. Resources files contains the content that the code uses, such as bitmaps, layout definitions, user interface strings, animation instructions and more -->
+    <!--The layout file activity_main.xml provides solid support for the development of UI-based applications and a variety of widgets that the programmer can use to create a desired layout and interface-->
+    <!--The layout elements can be created through the programming language directly or through XML layout files-->
+
+    <!--Arranged the elements in the design tab to create some hierarchy-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world_welcome_to_my_first_app"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <!--Created calendar by using the design tab on the bottom and used the widget calendar; and adjusted the constraints accordingly on the text tab. Also made an extra string which I created in the string.xml and called it here-->
+    <CalendarView
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:text="Date"
+        android:textAlignment="center"
+        android:textSize="45dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <!--Created input user email by using the design tab on the bottom and used the email widget; and adjusted constraints accordingly on the text tab.-->
+    <EditText
+        android:id="@+id/myEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="322dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="-2.19" />
+
+    <!--Created submit button so the date and user email by using the design tab on the bottom and used the email widget; and adjusted constraints accordingly on the text tab.-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="414dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="-10.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="-20.19" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
